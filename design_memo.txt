@@ -1,0 +1,21 @@
+
+For this assignment, I used a graph to represent a social network because it allows people 
+to have multiple connections with each other. Each person is represented as a node, and the 
+friendships between them are the edges. I think this structure works best because friendships 
+aren't always connected in a specific order or hierarchy. People can have multiple friends, and 
+those friends can also be connected to each other. Using a graph makes it easier to
+ organize and keep track of all these relationships.
+
+I don't think a regular list or tree would work as well for this type of network. A list could 
+store all the people, but it wouldn't be as easy to show the relationships between them. A tree 
+is more useful when information follows a hierarchy, like a company structure. In a social 
+network, people can have connections going in different directions and form cycles, which 
+wouldn't work with a regular tree.
+
+One thing I noticed while building this was how using a dictionary made it easier to find 
+people by their names. The adjacency list also helped because I only had to store the friendships 
+that actually existed instead of every possible connection. One downside is that checking for 
+duplicate friendships requires going through someone's friends list, which could take longer as 
+more friends are added. Printing the network also takes more time as the number of people and 
+friendships increases.
+
